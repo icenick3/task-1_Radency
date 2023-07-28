@@ -67,15 +67,6 @@ body {
 .table-header_archive .dates {
   width: 15%;
 }
-.table-header_archive .img {
-  width: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.table-header_archive .img img {
-  width: 30%;
-}
 
 .note {
   background-color: #e8eaf5;
