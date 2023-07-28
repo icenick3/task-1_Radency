@@ -9,10 +9,4 @@ let notes = [
     { id: 7, name: "Pay Electricity Bill", content: "Pay electricity bill", category: "Task", archived: false, dates: "", allDates: "" },
 ];
 
-
-
-function getNotes() {
-    return notes;
-}
-
-export { notes, getNotes };
+export { notes };

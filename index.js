@@ -305,7 +305,7 @@ const observer = new MutationObserver(()=>{
         popup.classList.add("back");
     })
     pop.addEventListener("click", (e)=>{
-        e.stopImmediatePropagation()
+        e.stopImmediatePropagation();
     })
 });
 observer.observe(body, {childList: true, subtree: true});
