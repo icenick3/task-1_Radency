@@ -357,11 +357,17 @@ body {
 #notesTable{
   max-height: 25vh;
   overflow: auto;
+  &::-webkit-scrollbar{
+    display: none;
+  }
 }
 
 #archivedNotesTable{
   max-height: 25vh;
   overflow: auto;
+  &::-webkit-scrollbar{
+    display: none;
+  }
 }
 
 .archive-h1{

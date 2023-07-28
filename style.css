@@ -325,10 +325,16 @@ body {
   max-height: 25vh;
   overflow: auto;
 }
+#notesTable::-webkit-scrollbar {
+  display: none;
+}
 
 #archivedNotesTable {
   max-height: 25vh;
   overflow: auto;
+}
+#archivedNotesTable::-webkit-scrollbar {
+  display: none;
 }
 
 .archive-h1 {
