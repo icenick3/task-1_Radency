@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="active-notes">
+    <h1>Notes</h1>
+    <div class="table-header">
+        <div class="name">Name</div>
+        <div class="created">Due date</div>
+        <div class="category">Category</div>
+        <div class="content">Content</div>
+        <div class="dates">Dates</div>
+    </div>
+    <div id="notesTable"></div>
+</div>
+
+<div class="add-note back">
+    <div class="note-form"  style="display: none">
+        <input type="text" id="noteName" placeholder="Note name" required>
+        <input type="text" id="noteContent" placeholder="Note content">
+        <input type="date" id="noteDate">
+        <select id="noteCategory">
+            <option value="Task">Task</option>
+            <option value="Random Thought">Random Thought</option>
+            <option value="Idea">Idea</option>
+        </select>
+        <button id="addNoteBtn">Add Note</button>
+    </div>
+    <img class="create-note" src="https://i.pinimg.com/originals/cc/ff/ab/ccffabdda4506215191818cc8b8ce629.png" alt="">
+</div>
+
+<div class="archive-notes">
+    <h1 class="archive-h1">Archive notes</h1>
+    <div class="table-header_archive">
+        <div class="name">Name</div>
+        <div class="created">Due date</div>
+        <div class="category">Category</div>
+        <div class="content">Content</div>
+        <div class="dates">Dates</div>
+
+    </div>
+    <div id="archivedNotesTable"></div>
+</div>
+
+    <div id="summaryTable"></div>
+
+
+<script type="module" src="index.js"></script>
+<script type="module" src="notes.js"></script>
+<script type="module" src="utilis.js"></script>
+</body>
+</html>
